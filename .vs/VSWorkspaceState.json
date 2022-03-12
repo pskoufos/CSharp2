@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\c1",
+    "\\c1\\c1"
   ],
-  "SelectedNode": "\\C:\\Users\\SKPANOS\\source\\repos\\csharp",
+  "SelectedNode": "\\c1\\c1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
