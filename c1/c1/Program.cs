@@ -61,6 +61,7 @@
             Console.WriteLine("2. Timer Example.");
             Console.WriteLine("3. Database Reader Example.");
             Console.WriteLine("4. Database Export XML Example.");
+            Console.WriteLine("5. Query Linq Array.");
             Console.WriteLine("9. Exit.");
             Console.Write("\nSelect :");
             ConsoleKeyInfo k = Console.ReadKey(true);
@@ -80,6 +81,11 @@
                 case '4':
                     cBikesDB db2 = new cBikesDB();
                     db2.TabletoXml();
+                    break;
+                case '5':
+                    Console.Clear();    
+                    myLinq.queryStores();
+                    Console.ReadKey(true);
                     break;
 
                 case '9':

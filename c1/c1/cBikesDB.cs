@@ -8,7 +8,7 @@ using System.Data;
 
 namespace MyDatabases 
 {
-    public class cBikesDB
+     class cBikesDB
     {
         private const string constr = @"Data Source=KAVA\SQLEXPRESS2012;Initial Catalog=Bikes;User ID=1;Password=1";
 
